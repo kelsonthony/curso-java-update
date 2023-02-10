@@ -16,8 +16,9 @@ public class CalculadoraImposto {
         if (produto instanceof Tomate) {
             Tomate tomate = (Tomate) produto;
 
-            //String dataValidade = ((Tomate) produto).getDataValidade();
-            System.out.println(tomate.getDataValidade());
+            String dataValidade = ((Tomate) produto).getDataValidade();
+            //System.out.println(tomate.getDataValidade());
+            System.out.println(dataValidade);
         }
 
 
